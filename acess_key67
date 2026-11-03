@@ -4047,7 +4047,7 @@ local function bootNote(msg, keep)
 	end
 	return sg
 end
-bootNote("drixnvsp is loading the menu...")
+bootNote("Vodex is loading the menu...")
 local WindUI = (function()
 	local CACHE = "drixnvsp_windui.lua"
 	local urls = {
@@ -4141,7 +4141,7 @@ UI.Window = WindUI:CreateWindow({
 	User = { Enabled = false },
 	Topbar = { Height = 52, ButtonsType = "Default" },
 	OpenButton = {
-		Title = "drixnvsp | OPPS", Icon = "rbxthumb://type=Asset&id=" .. LOGO_ID .. "&w=420&h=420",
+		Title = "vodex | pvp", Icon = "rbxthumb://type=Asset&id=" .. LOGO_ID .. "&w=420&h=420",
 		CornerRadius = UDim.new(1, 0), StrokeThickness = 3, Enabled = false, Draggable = true, OnlyMobile = false,
 		Color = ColorSequence.new(Color3.fromRGB(179, 20, 27), Color3.fromRGB(110, 10, 14)),
 	},
@@ -4149,7 +4149,7 @@ UI.Window = WindUI:CreateWindow({
 local Window = UI.Window
 pcall(function() Window:SetTheme(THEME) end)
 pcall(function() WindUI:SetTheme(THEME) end)
-pcall(function() Window:Tag({ Title = "v8.6 - PAID", Color = Color3.fromHex("#b3141b"), Border = true }) end)
+pcall(function() Window:Tag({ Title = "v8.7 - FREE", Color = Color3.fromHex("#b3141b"), Border = true }) end)
 pcall(function()
 	Window:CreateTopbarButton("Discord", "link", function()
 		pcall(function() (setclipboard or toclipboard)("https://discord.gg/8At9MJkUt") end) notify("Discord", "Invite copied", "check")
