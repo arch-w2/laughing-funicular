@@ -4107,12 +4107,12 @@ if not WindUI then return end
 local LOGO_ID = 120412740818179
 local UI = { el = {} }
 -- WindUI built-in light theme
-local THEME = "Light"
+local THEME = "Dark"
 UI.Window = WindUI:CreateWindow({
-	Title = "drixnvsp | OPPS",
-	Author = "[⚔] - OPPS | drixnvsp",
+	Title = "Vodex | PVP",
+	Author = "[⚔] - by | Vodex",
 	Icon = "rbxthumb://type=Asset&id=" .. LOGO_ID .. "&w=420&h=420",
-	Folder = "drixnvspOPPS",
+	Folder = "Vodex",
 	Size = UDim2.fromOffset(580, 460),
 	MinSize = Vector2.new(440, 260),
 	MaxSize = Vector2.new(860, 580),
